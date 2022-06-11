@@ -1,0 +1,36 @@
+
+
+
+@media only screen and (max-width: 768px){
+
+  .header{
+    height: 2.5rem;
+    width: 100%;
+    background-color: crimson;
+  
+  }
+  
+}
+
+@media only screen and (min-width: 769px){
+
+  .header{
+    height: 2.5rem;
+    width: 100%;
+    background-color: green;
+  
+  }
+
+}
+
+
+@media only screen and (min-width: 1280px){
+
+  .header{
+    height: 2.5rem;
+    width: 100%;
+    background-color: blue;
+  
+  }
+
+}
