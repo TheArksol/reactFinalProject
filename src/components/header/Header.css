@@ -1,36 +1,35 @@
 
+.header{
+  display: flex;
+  align-items: center;
+  height: 2.5rem;
+  width: 100%;
+}
+
+.header > div {
+  display: flex;
+}
 
 
 @media only screen and (max-width: 768px){
 
   .header{
-    height: 2.5rem;
-    width: 100%;
-    background-color: crimson;
-  
+    background-color: rgb(194, 117, 132);
   }
-  
 }
 
 @media only screen and (min-width: 769px){
 
   .header{
-    height: 2.5rem;
-    width: 100%;
-    background-color: green;
-  
+    background-color: rgb(72, 158, 72);
+    justify-content: space-between;
   }
-
 }
-
 
 @media only screen and (min-width: 1280px){
 
   .header{
-    height: 2.5rem;
-    width: 100%;
-    background-color: blue;
-  
+    background-color: rgb(25, 103, 171);
+    justify-content: space-between
   }
-
 }
